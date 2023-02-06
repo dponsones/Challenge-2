@@ -14,3 +14,6 @@ Using our current knowledge of HTML and CSS, this project focuses on making a po
 
 ## Links 
 
+https://dponsones.github.io/Challenge-2/
+https://github.com/dponsones/Challenge-2.git
+
