@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: lightgrey;
+}
+
+
+header {
+  background-color: lightgrey;
+  border-style: 5px solid black;
+  padding: 0px;
+  border-bottom: 2px solid black;
+
+}
+
+h1 {
+  font-size: xx-large;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+  border-top: 1px solid black;
+  text-align: left;
+  padding: 10px 5px;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* navigation bar */
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  display: block;
+  float: left;
+  position: relative;
+  color: #f2f2f2;
+  padding: 10px 10px;
+
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Text / descriptions */
+.intro {
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  width: 500px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-size: larger;
+}
+
+p {
+  text-align: center;
+
+}
+
+/* For whatever is the current project; featured is supposed to be bigger than other projects */
+.feature-card {
+  border: 1px solid #333;
+  margin: 5px;
+  float: left;
+  width: 90%;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #333;
+  margin: 5px;
+  padding: 20px;
+  float: left;
+  width: 75%;
+}
+
+footer {
+  border: 1px solid #333;
+  margin: 5px;
+  padding: 10px;
+  float: left;
+  width: 100%;
+}
+
+
+.flex-container {
+  display:flex;
+  justify-content:center;
+  flex-direction: row;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
